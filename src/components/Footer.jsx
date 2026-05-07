@@ -5,7 +5,7 @@ export const Footer = () => (
         © 2026 KATHERIN LASSO TOBAR · CALI, CO
       </span>
       <span className="mono" style={{ fontSize: 11, color: 'var(--ink-3)', letterSpacing: '0.06em' }}>
-        PORTFOLIO · v.05 · BUILT WITH INTENT
+        PORTFOLIO · v.05
       </span>
     </div>
   </footer>
