@@ -40,7 +40,7 @@ export const Contact = () => {
               margin: '0 0 24px 0',
               letterSpacing: '-0.03em',
             }}>
-              Let's grow your<br /><em style={{ color: 'var(--accent)', fontStyle: 'normal' }}>Organic Presence.</em>
+              LET'S GROW YOUR<br /><em style={{ color: 'var(--accent)', fontStyle: 'normal' }}>ORGANIC PRESENCE.</em>
             </h2>
             <p className="grotesk" style={{ fontSize: 17, opacity: 0.8, lineHeight: 1.5, maxWidth: 480, margin: 0 }}>
               Drop me a note. I respond within 24 hours and I show up ready to figure things out.
