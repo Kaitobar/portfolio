@@ -1,7 +1,7 @@
 import { SectionTabs } from './TopBar';
 
 const experience = [
-  { period: '2023-Present', company: 'Contáctica · Puerto Rico', role: 'Digital & SEO Analyst', desc: 'Managing SEO across multiple U.S.-based client accounts — keyword research, on-page & technical SEO, schema markup, and automated reporting in Power BI & Python. Weekly GA4 + GSC performance cycles.', start: 'Mar', end: 'Now' },
+  { period: '2023-Present', company: 'Contáctica · Puerto Rico', role: 'Digital & SEO Analyst', desc: 'Managing SEO across multiple client accounts — keyword research, on-page & technical SEO, schema markup, and automated reporting in Power BI & Python. Weekly GA4 + GSC performance cycles.', start: 'Mar', end: 'Now' },
   { period: '2022-2023', company: 'Contáctica · Puerto Rico', role: 'Data Intelligence Intern', desc: 'Large-dataset processing, dashboards & reporting for BI initiatives across marketing & ops. Supported multi-client reporting pipelines.', start: 'Aug', end: 'Mar' },
 ];
 
