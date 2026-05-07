@@ -7,8 +7,8 @@ const experience = [
 
 const education = [
   { period: '2025—Present', school: 'Universidad Autónoma de Occidente', degree: 'Postgraduate · Business Intelligence (Big Data)' },
-  { period: '2019—2023', school: 'Universidad Autónoma de Occidente', degree: 'Marketing & International Business' },
-  { period: '2024—Present', school: 'DataCamp', degree: 'Data Engineering — Python, SQL, ETL' },
+  { period: '2019—2025', school: 'Universidad Autónoma de Occidente', degree: 'Marketing & International Business' },
+  { period: '2024', school: 'DataCamp', degree: 'Data Engineering — Python, SQL, ETL' },
   { period: '2022—2023', school: '100Devs', degree: 'Software Engineer Bootcamp' },
 ];
 
