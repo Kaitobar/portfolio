@@ -89,8 +89,8 @@ export const About = () => (
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 12 }} className="touch-grid">
               {[
                 { t: 'Email', v: 'lassokatherin@gmail.com', bg: 'var(--ink)', fg: 'var(--paper)', icon: '✉', href: 'mailto:lassokatherin@gmail.com' },
-                { t: 'LinkedIn', v: 'linkedin.com/in/katherin-lasso', bg: 'var(--accent)', fg: 'var(--accent-fg)', icon: 'in', href: '#' },
-                { t: 'GitHub', v: 'github.com/katherinlasso', bg: 'var(--paper)', fg: 'var(--ink)', icon: 'gh', href: '#' },
+                { t: 'LinkedIn', v: 'linkedin.com/in/katherinlasso', bg: 'var(--accent)', fg: 'var(--accent-fg)', icon: 'in', href: 'https://www.linkedin.com/in/katherinlasso/' },
+                { t: 'GitHub', v: 'github.com/Kaitobar', bg: 'var(--paper)', fg: 'var(--ink)', icon: 'gh', href: 'https://github.com/Kaitobar' },
               ].map(c => (
                 <a key={c.t} href={c.href} style={{
                   background: c.bg, color: c.fg,
