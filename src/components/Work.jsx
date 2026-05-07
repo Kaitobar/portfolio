@@ -37,7 +37,7 @@ const cases = [
     title: 'GA4, GSC, Power BI & Looker reporting',
     summary: 'Custom dashboards that connect SEO performance to business results. Built for clients who want clarity, not noise.',
     detail: 'I build reporting systems that make it easy to see what\'s working and what needs attention, without wading through raw data. Whether it\'s a GA4 exploration, a GSC performance dashboard, or a full Power BI or Looker Studio report, I connect the data sources and design for decision-making, not just metrics.',
-    images: ['https://i.ibb.co/bxw2prb/Captura-de-pantalla-2026-05-07-000000.png'],
+    images: ['https://i.ibb.co/bxw2prb/Captura-de-pantalla-2026-05-07-000000.png', 'https://i.ibb.co/LhcYpw3j/Captura-de-pantalla-2026-05-07-005134.png'],
     accent: 'var(--ink)',
     fg: 'var(--paper)',
     icon: '📈',
