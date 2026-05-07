@@ -219,7 +219,7 @@ export const Work = () => {
             {active.images.length > 0 && (
               <div style={{
                 display: 'grid',
-                gridTemplateColumns: active.images.length === 1 ? '1fr' : 'repeat(2, 1fr)',
+                gridTemplateColumns: '1fr',
                 gap: 3,
                 margin: '0 3px',
               }}>
