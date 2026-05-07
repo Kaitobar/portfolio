@@ -5,8 +5,8 @@ const cases = [
   {
     tag: 'SEO AUDIT',
     title: 'Full technical & on-page SEO audits',
-    summary: 'Crawl analysis, Core Web Vitals, indexation issues, schema markup, internal linking — with a clear action plan.',
-    detail: 'A full SEO audit covers everything that affects how search engines find, crawl, and rank your site. I analyze technical health (speed, mobile, crawl errors), on-page optimization (titles, headings, content), and off-page signals — then deliver a prioritized roadmap so you know exactly what to fix first and why.',
+    summary: 'Crawl analysis, Core Web Vitals, schema markup, indexation & internal linking — with a prioritized action plan.',
+    detail: 'A full SEO audit covers everything affecting how search engines find, crawl, and rank your site. I use tools like SEMrush and Search Atlas to analyze technical health (site speed, mobile, crawl errors), on-page signals (titles, headings, content gaps), schema markup implementation, and indexing issues — then deliver a clear roadmap so you know exactly what to fix first and why.',
     images: ['https://i.ibb.co/rGbgMkDS/Captura-de-pantalla-2026-05-06-233448.png'],
     accent: 'var(--accent)',
     fg: 'var(--accent-fg)',
