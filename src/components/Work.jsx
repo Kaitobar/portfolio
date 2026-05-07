@@ -6,7 +6,7 @@ const cases = [
     tag: 'SEO AUDIT',
     title: 'Full technical & on-page SEO audits',
     summary: 'Crawl analysis, Core Web Vitals, schema markup, indexation & internal linking. Delivered with a prioritized action plan.',
-    detail: 'A full SEO audit covers everything affecting how search engines find, crawl, and rank your site. I use tools like SEMrush and Screaming Frog to analyze technical health (site speed, mobile, crawl errors), on-page signals (titles, headings, content gaps), schema markup implementation, and indexing issues. You get a clear roadmap so you know exactly what to fix first and why.',
+    detail: 'Conducted a full technical SEO audit for a health and life insurance company using SEMrush. The audit revealed a site health score of 65%, with 217 errors, 2,345 warnings, and key issues in Core Web Vitals (29%) and crawlability (75%).\n\nBased on the findings, I prioritized fixing critical errors, improving page load speed, and resolving crawl issues affecting over 200 pages. After implementing the recommended changes, errors were reduced by nearly 40%, leading to a significant improvement in overall site health and search performance.',
     images: ['https://i.ibb.co/rGbgMkDS/Captura-de-pantalla-2026-05-06-233448.png'],
     accent: 'var(--accent)',
     fg: 'var(--accent-fg)',
@@ -208,11 +208,11 @@ export const Work = () => {
               }}>
                 {active.title}
               </h2>
-              <p className="grotesk" style={{
-                fontSize: 16, opacity: 0.88, margin: 0, lineHeight: 1.65, maxWidth: 600,
-              }}>
-                {active.detail}
-              </p>
+              <div className="grotesk" style={{ fontSize: 16, opacity: 0.88, lineHeight: 1.65, maxWidth: 600 }}>
+                {active.detail.split('\n\n').map((p, i) => (
+                  <p key={i} style={{ margin: i === 0 ? 0 : '14px 0 0' }}>{p}</p>
+                ))}
+              </div>
             </div>
 
             {/* Images grid */}
