@@ -63,8 +63,8 @@ export const About = () => (
                 </div>
                 <div className="grotesk" style={{ fontSize: 14, color: 'var(--ink-2)', lineHeight: 1.55 }}>
                   Marketing background, analyst's discipline. I run keyword research,
-                  on-page &amp; technical SEO, and build the dashboards in GA4, GSC,
-                  Power BI &amp; Looker that prove the work moved numbers.
+                  on-page &amp; technical SEO, manage and optimize WordPress sites,
+                  and build the dashboards in GA4, Power BI &amp; Looker that prove the work moved numbers.
                 </div>
               </div>
               <div style={{
