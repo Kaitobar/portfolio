@@ -61,7 +61,7 @@ export const Hero = () => (
 
           <div style={{
             fontFamily: 'Archivo Black',
-            fontSize: 'clamp(72px, 13vw, 200px)',
+            fontSize: 'clamp(60px, 10.5vw, 160px)',
             lineHeight: 0.82,
             letterSpacing: '-0.04em',
             textTransform: 'uppercase',
