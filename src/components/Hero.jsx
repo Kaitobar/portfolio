@@ -61,14 +61,15 @@ export const Hero = () => (
 
           <div style={{
             fontFamily: 'Archivo Black',
-            fontSize: 'clamp(60px, 10.5vw, 160px)',
+            fontSize: 'clamp(72px, 13vw, 200px)',
             lineHeight: 0.82,
             letterSpacing: '-0.04em',
             textTransform: 'uppercase',
             alignSelf: 'flex-end',
             textAlign: 'right',
           }}>
-            <div>KATHERIN</div>
+            <div>KATHE</div>
+            <div>RIN</div>
             <div style={{ color: 'rgba(255,255,255,0.92)' }}>LASSO</div>
           </div>
 
