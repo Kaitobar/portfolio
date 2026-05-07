@@ -48,7 +48,7 @@ From: `+e.email)}`},style:{background:`var(--paper)`,color:`var(--ink)`,borderRa
         @media (max-width: 860px) {
           .contact-row { grid-template-columns: 1fr !important; }
         }
-      `})]})},ue=()=>(0,f.jsx)(`footer`,{style:{padding:`32px 0 24px`,borderTop:`1.5px solid var(--ink)`},children:(0,f.jsxs)(`div`,{className:`container`,style:{display:`flex`,justifyContent:`space-between`,flexWrap:`wrap`,gap:12},children:[(0,f.jsx)(`span`,{className:`mono`,style:{fontSize:11,color:`var(--ink-3)`,letterSpacing:`0.06em`},children:`© 2026 KATHERIN LASSO TOBAR · CALI, CO`}),(0,f.jsx)(`span`,{className:`mono`,style:{fontSize:11,color:`var(--ink-3)`,letterSpacing:`0.06em`},children:`PORTFOLIO · v.05 · BUILT WITH INTENT`})]})}),T=`
+      `})]})},ue=()=>(0,f.jsx)(`footer`,{style:{padding:`32px 0 24px`,borderTop:`1.5px solid var(--ink)`},children:(0,f.jsxs)(`div`,{className:`container`,style:{display:`flex`,justifyContent:`space-between`,flexWrap:`wrap`,gap:12},children:[(0,f.jsx)(`span`,{className:`mono`,style:{fontSize:11,color:`var(--ink-3)`,letterSpacing:`0.06em`},children:`© 2026 KATHERIN LASSO TOBAR · CALI, CO`}),(0,f.jsx)(`span`,{className:`mono`,style:{fontSize:11,color:`var(--ink-3)`,letterSpacing:`0.06em`},children:`PORTFOLIO · v.05`})]})}),T=`
   .twk-panel{position:fixed;right:16px;bottom:16px;z-index:2147483646;width:280px;
     max-height:calc(100vh - 32px);display:flex;flex-direction:column;
     background:rgba(250,249,247,.78);color:#29261b;
