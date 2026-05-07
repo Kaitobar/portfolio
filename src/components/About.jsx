@@ -43,8 +43,7 @@ export const About = () => (
             fontFamily: 'JetBrains Mono, monospace',
             letterSpacing: '0.05em',
           }}>
-            I OPTIMIZE WITH DATA — NOT GUESSES. 3+ YEARS<br />
-            SHIPPING ORGANIC GROWTH AND DASHBOARDS.
+            3+ YEARS SHIPPING ORGANIC GROWTH AND DASHBOARDS.
           </div>
         </div>
 
