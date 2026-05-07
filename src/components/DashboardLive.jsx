@@ -161,55 +161,6 @@ export const DashboardLive = () => {
           ))}
         </div>
 
-        {/* Top queries table */}
-        <div style={{
-          background: 'var(--paper)',
-          border: '1px solid rgba(0,0,0,0.08)',
-          borderRadius: 22,
-          padding: 28,
-        }}>
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 18, flexWrap: 'wrap', gap: 12 }}>
-            <div>
-              <div className="mono" style={{ fontSize: 10, color: 'var(--ink-3)', letterSpacing: '0.1em', marginBottom: 6 }}>
-                TOP PERFORMING QUERIES
-              </div>
-              <div className="display" style={{ fontSize: 24, lineHeight: 1 }}>From Search Console</div>
-            </div>
-            <span className="mono" style={{ fontSize: 11, color: 'var(--ink-3)', letterSpacing: '0.08em' }}>
-              GA4 · GSC · SEMRUSH · LOOKER · POWER BI
-            </span>
-          </div>
-          <div style={{ display: 'grid', gap: 2 }}>
-            <div className="mono query-head" style={{
-              display: 'grid', gridTemplateColumns: '2.4fr 0.8fr 0.8fr 0.8fr',
-              fontSize: 10, color: 'var(--ink-3)', letterSpacing: '0.08em',
-              padding: '8px 14px', textTransform: 'uppercase',
-              borderBottom: '1px solid rgba(0,0,0,0.08)',
-            }}>
-              <span>Query</span>
-              <span style={{ textAlign: 'right' }}>Clicks</span>
-              <span style={{ textAlign: 'right' }}>CTR</span>
-              <span style={{ textAlign: 'right' }}>Pos</span>
-            </div>
-            {queries.map((q, i) => (
-              <div key={i} className="query-row" style={{
-                display: 'grid', gridTemplateColumns: '2.4fr 0.8fr 0.8fr 0.8fr',
-                fontSize: 14, padding: '14px',
-                borderRadius: 12,
-                transition: 'background 0.2s',
-                alignItems: 'center',
-              }}
-                onMouseEnter={e => e.currentTarget.style.background = 'var(--bg)'}
-                onMouseLeave={e => e.currentTarget.style.background = 'transparent'}
-              >
-                <span className="grotesk" style={{ color: 'var(--ink)' }}>{q.q}</span>
-                <span className="mono" style={{ textAlign: 'right', fontWeight: 600 }}>{q.clk.toLocaleString()}</span>
-                <span className="mono" style={{ textAlign: 'right', color: 'var(--ink-2)' }}>{q.ctr}%</span>
-                <span className="mono" style={{ textAlign: 'right', color: 'var(--accent)', fontWeight: 700 }}>{q.pos}</span>
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
 
       <style>{`
