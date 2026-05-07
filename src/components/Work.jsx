@@ -27,7 +27,7 @@ const cases = [
     title: 'Keyword strategy & content planning',
     summary: 'Search intent mapping, topic clusters, competitor gap analysis, and content briefs that drive qualified organic traffic.',
     detail: 'Keyword research is more than a list of terms. It\'s understanding what your audience is actually looking for and building a content architecture around that. I map search intent, identify quick wins vs long-term plays, and deliver content briefs your team can execute without guesswork.',
-    images: ['https://i.ibb.co/MxYBqWjC/Captura-de-pantalla-2026-05-06-235831.png'],
+    images: ['https://i.ibb.co/MxYBqWjC/Captura-de-pantalla-2026-05-06-235831.png', 'https://i.ibb.co/zWWymQmp/Captura-de-pantalla-2026-05-07-005937.png'],
     accent: 'var(--accent)',
     fg: 'var(--accent-fg)',
     icon: '📊',
