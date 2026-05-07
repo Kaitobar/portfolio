@@ -51,14 +51,14 @@ export const DashboardLive = () => {
           }}>
             <div>
               <div className="mono" style={{ fontSize: 11, color: 'var(--ink-3)', letterSpacing: '0.12em', marginBottom: 14 }}>
-                §05 — ANALYTICS LAB
+                §05 · ANALYTICS LAB
               </div>
               <h2 className="display" style={{ fontSize: 'clamp(44px, 5.4vw, 72px)', margin: 0, lineHeight: 0.95 }}>
                 Analytics,<br />Live.
               </h2>
             </div>
             <p className="grotesk" style={{ fontSize: 15, color: 'var(--ink-2)', margin: '20px 0 0', maxWidth: 460, lineHeight: 1.55 }}>
-              A working preview of the kind of reporting I ship — interactive,
+              A working preview of the kind of reporting I ship: interactive,
               not just screenshots. Switch the range and watch it update.
             </p>
           </div>

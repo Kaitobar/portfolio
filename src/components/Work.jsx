@@ -5,8 +5,8 @@ const cases = [
   {
     tag: 'SEO AUDIT',
     title: 'Full technical & on-page SEO audits',
-    summary: 'Crawl analysis, Core Web Vitals, schema markup, indexation & internal linking — with a prioritized action plan.',
-    detail: 'A full SEO audit covers everything affecting how search engines find, crawl, and rank your site. I use tools like SEMrush and Screaming Frog to analyze technical health (site speed, mobile, crawl errors), on-page signals (titles, headings, content gaps), schema markup implementation, and indexing issues — then deliver a clear roadmap so you know exactly what to fix first and why.',
+    summary: 'Crawl analysis, Core Web Vitals, schema markup, indexation & internal linking. Delivered with a prioritized action plan.',
+    detail: 'A full SEO audit covers everything affecting how search engines find, crawl, and rank your site. I use tools like SEMrush and Screaming Frog to analyze technical health (site speed, mobile, crawl errors), on-page signals (titles, headings, content gaps), schema markup implementation, and indexing issues. You get a clear roadmap so you know exactly what to fix first and why.',
     images: ['https://i.ibb.co/rGbgMkDS/Captura-de-pantalla-2026-05-06-233448.png'],
     accent: 'var(--accent)',
     fg: 'var(--accent-fg)',
@@ -35,8 +35,8 @@ const cases = [
   {
     tag: 'REPORTS & DASHBOARDS',
     title: 'GA4, GSC, Power BI & Looker reporting',
-    summary: 'Custom dashboards that connect SEO performance to business results — built for clients who want clarity, not noise.',
-    detail: 'I build reporting systems that make it easy to see what\'s working and what needs attention — without wading through raw data. Whether it\'s a GA4 exploration, a GSC performance dashboard, or a full Power BI or Looker Studio report, I connect the data sources and design for decision-making, not just metrics.',
+    summary: 'Custom dashboards that connect SEO performance to business results. Built for clients who want clarity, not noise.',
+    detail: 'I build reporting systems that make it easy to see what\'s working and what needs attention, without wading through raw data. Whether it\'s a GA4 exploration, a GSC performance dashboard, or a full Power BI or Looker Studio report, I connect the data sources and design for decision-making, not just metrics.',
     images: ['https://i.ibb.co/bxw2prb/Captura-de-pantalla-2026-05-07-000000.png'],
     accent: 'var(--ink)',
     fg: 'var(--paper)',
