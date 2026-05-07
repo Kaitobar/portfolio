@@ -1,10 +1,10 @@
 import { SectionTabs } from './TopBar';
 
 const cases = [
-  { tag: 'E-COMMERCE', title: 'Organic revenue 3× in 8 months', d: 'Site arch rebuild, indexed 4K product pages, long-tail content engine.', m: '+343%', c: 'accent' },
-  { tag: 'B2B SAAS', title: 'Cluster strategy lifts demos +180%', d: '6 topic clusters, WordPress migration with schema and internal links.', m: '+180%', c: 'ink' },
-  { tag: 'LOCAL', title: 'Multi-location local SEO playbook', d: '18 GBP listings, city pages, review automation, Looker tracking.', m: '+237%', c: 'accent' },
-  { tag: 'PUBLISHING', title: 'Editorial site recovers from Core Update', d: 'E-E-A-T fixes, CWV overhaul, content pruning across 1.8K articles.', m: 'recovery', c: 'ink' },
+  { tag: 'SEO AUDIT', title: 'Full technical & on-page SEO audits', d: 'Crawl analysis, Core Web Vitals, indexation issues, schema markup, internal linking structure — with a clear action plan.', m: '↗', c: 'accent' },
+  { tag: 'WORDPRESS', title: 'WordPress build, migration & optimization', d: 'Theme setup, Yoast configuration, speed optimization, CWV fixes, and plugin management for lean, fast sites.', m: '↗', c: 'ink' },
+  { tag: 'KEYWORD RESEARCH', title: 'Keyword strategy & content planning', d: 'Search intent mapping, topic clusters, competitor gap analysis, and content briefs that drive qualified organic traffic.', m: '↗', c: 'accent' },
+  { tag: 'REPORTS & DASHBOARDS', title: 'GA4, GSC, Power BI & Looker reporting', d: 'Custom dashboards that connect SEO performance to business results — built for clients who want clarity, not noise.', m: '↗', c: 'ink' },
 ];
 
 export const Work = () => (
