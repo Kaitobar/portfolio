@@ -68,8 +68,7 @@ export const Hero = () => (
             alignSelf: 'flex-end',
             textAlign: 'right',
           }}>
-            <div>KATHE</div>
-            <div>RIN</div>
+            <div>KATHERIN</div>
             <div style={{ color: 'rgba(255,255,255,0.92)' }}>LASSO</div>
           </div>
 
