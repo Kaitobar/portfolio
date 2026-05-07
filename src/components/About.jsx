@@ -30,7 +30,7 @@ export const About = () => (
           }} />
           <div style={{ position: 'absolute', top: 24, left: 24, right: 24, color: 'var(--paper)' }}>
             <div className="display" style={{ fontSize: 'clamp(36px, 4.4vw, 52px)', lineHeight: 1.1, color: 'var(--paper)' }}>
-              Hello, I'm Katherin
+              Hi, I'm Katherin
             </div>
           </div>
           <div style={{
