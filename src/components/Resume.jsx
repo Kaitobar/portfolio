@@ -12,7 +12,7 @@ const education = [
   { period: '2022—2023', school: '100Devs', degree: 'Software Engineer Bootcamp' },
 ];
 
-const hardskills = ['SEO', 'GA4', 'GSC', 'SEMrush', 'Search Atlas', 'Screaming Frog', 'WordPress', 'Yoast', 'Power BI', 'Looker', 'SQL', 'Python', 'Excel'];
+const hardskills = ['SEO', 'GA4', 'GSC', 'SEMrush', 'Screaming Frog', 'WordPress', 'Yoast', 'Power BI', 'Looker', 'SQL', 'Python', 'Excel'];
 const softskills = ['Ownership', 'Analytical', 'Communication', 'Bilingual', 'Self-managed', 'Curious'];
 
 export const Resume = () => (
