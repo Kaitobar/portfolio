@@ -3,7 +3,6 @@ import { SectionTabs } from './TopBar';
 const experience = [
   { period: '2023-Present', company: 'Contáctica · Puerto Rico', role: 'Digital & SEO Analyst', desc: 'Keyword research, on-page & technical SEO, automated reporting in Power BI & Python. GA4 + GSC weekly cycles.', start: 'Mar', end: 'Now' },
   { period: '2022-2023', company: 'Contáctica · Puerto Rico', role: 'Data Intelligence Intern', desc: 'Large-dataset processing, dashboards & reporting for BI initiatives across marketing & ops.', start: 'Aug', end: 'Mar' },
-  { period: '2021-2022', company: 'Freelance Projects', role: 'WordPress + Yoast SEO Specialist', desc: 'Built and optimized WordPress sites for SMBs. Schema, internal linking, CWV fixes, content briefs.', start: 'Jan', end: 'Dec' },
 ];
 
 const education = [
