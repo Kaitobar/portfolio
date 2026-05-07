@@ -29,9 +29,8 @@ export const About = () => (
             background: 'linear-gradient(180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.05) 35%, rgba(0,0,0,0.05) 60%, rgba(0,0,0,0.7) 100%)',
           }} />
           <div style={{ position: 'absolute', top: 24, left: 24, right: 24, color: 'var(--paper)' }}>
-            <div className="grotesk" style={{ fontSize: 16, fontWeight: 500, opacity: 0.9, marginBottom: 6 }}>Hello,</div>
-            <div className="display" style={{ fontSize: 'clamp(36px, 4.4vw, 52px)', lineHeight: 0.95, color: 'var(--paper)' }}>
-              My name<br />is Katherin
+            <div className="display" style={{ fontSize: 'clamp(36px, 4.4vw, 52px)', lineHeight: 1.1, color: 'var(--paper)' }}>
+              Hello, I'm Katherin
             </div>
           </div>
           <div style={{
